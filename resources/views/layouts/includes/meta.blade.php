@@ -1,16 +1,20 @@
 <!-- Responsive View -->
-
 <meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="csrf-token" content="{{ csrf_token() }}">
+<meta name="language" content="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <!-- SEO Google -->
 <meta name="title" content="Devkurov รับทำเว็บไซต์เกมออนไลน์">
 <meta name="description" content="รับออกแบบเว็บไซต์เกมออนไลน์ ระบบเว็บไซต์เกมออนไลน์ ระบบจัดการฐานข้อมูลเกมออนไลน์">
+<meta name="keywords" content="devkurov,รับทำเว็บไซต์เกมออนไลน์,ทำเว็บเกม,ออกแบบเว็บเกม,ทำเว็บแร็ค,ทำเว็บ,ทำเว็บro,ทำเว็บ ro,เว็บ ro,ทำเว็บragnarok,ragnarok,เว็บ ragnarok,เว็บ gta,ucp gta,ucp fivem,ucp samp,เว็บ samp,เว็บ fivem">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="7 days">
+<meta name="author" content="Tuntikorn Supapkul">
+
 
 <!-- Open Graph / Facebook -->
-
-<!-- SEO Facebook, OpenGraph -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{config('app.url')}}">
 <meta property="og:title" content="Devkurov รับทำเว็บไซต์เกมออนไลน์">
