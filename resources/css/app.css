@@ -1,0 +1,10 @@
+@import './normalize.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@400;600;700&family=Prompt:wght@400;600;700&family=Roboto+Mono:wght@400;600;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './components.css';
+@import './custom.css';

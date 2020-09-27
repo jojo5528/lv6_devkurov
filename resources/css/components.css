@@ -1,0 +1,69 @@
+.btn{
+    @apply py-4 px-8 font-bold rounded-full shadow-lg transition duration-300 text-gray-800 bg-white;
+}
+.btn:hover{
+    @apply underline text-white bg-orange-400;
+}
+
+.navbar{
+    @apply w-full px-3 fixed z-50 top-0 transition duration-500;
+}
+
+.navbar .nav-item{
+    @apply w-full flex-grow mt-2 bg-white text-black p-4 z-20;
+}
+.navbar .nav-item ul{
+    @apply list-none p-0 flex-1 items-center;
+}
+
+.navbar .nav-item ul li{
+    @apply mr-3;
+}
+.navbar .nav-item ul li a{
+    @apply inline-block no-underline py-2 px-4 text-gray-500;
+}
+.navbar .nav-item ul li a:hover{
+    @apply text-gray-800 underline;
+}
+.navbar .nav-item ul li.active a{
+    @apply font-bold text-black no-underline;
+}
+
+.navbar .nav-brand{
+    @apply pl-4 flex items-center;
+}
+.navbar .nav-brand a{
+    @apply no-underline font-bold text-2xl uppercase;
+}
+
+@screen lg{
+    .navbar .nav-item{
+        @apply flex block items-center w-auto mt-0 p-0 bg-transparent;
+    }
+    .navbar .nav-item ul{
+        @apply flex;
+    }
+
+    .navbar .nav-brand a{
+        @apply text-4xl;
+    }
+}
+
+.container h1{
+    @apply text-5xl font-bold;
+}
+.container h2{
+    @apply text-4xl font-bold;
+}
+.container h3{
+    @apply text-3xl font-bold;
+}
+.container h4{
+    @apply text-2xl font-bold;
+}
+.container h5{
+    @apply text-xl font-bold;
+}
+.container h5{
+    @apply text-lg font-bold;
+}
