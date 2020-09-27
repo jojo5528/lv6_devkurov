@@ -13,7 +13,8 @@ class HomeController extends Controller
     }
 
     public function optimize(Request $request){
-        Artisan::call('optimize');
-        return 'Optimized & storage linked';
+        //Artisan::call('optimize');
+        //return 'Optimized & storage linked';
+        return redirect()->route('home');
     }
 }
